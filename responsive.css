@@ -7,7 +7,8 @@
   .row-1,
   .row-2,
   .row-3,
-  .chose-container {
+  .chose-container,
+  .newsletter-container {
     flex-direction: column;
   }
   .row-1,
@@ -27,7 +28,9 @@
     align-items: center;
     gap: 16px;
   }
-  .input-container input {
+  .input-container input,
+  select,
+  .banner-btn button {
     width: 255px;
     height: 52px;
   }
@@ -61,7 +64,8 @@
   .populer-info li {
     width: 380px;
   }
-  .popular-img img {
+  .popular-img img,
+  .newsletter-img img {
     width: 380px;
     height: 440px;
   }
@@ -113,5 +117,69 @@
   .chose-price {
     width: 310px;
     margin-left: 150px;
+  }
+
+  /* newsletter section=================- */
+  .saving {
+    width: 214.023px;
+    height: 79.268px;
+    position: relative;
+    left: 180px;
+    bottom: 116px;
+  }
+  .saving p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 15px;
+  }
+  .saving h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 800px;
+  }
+  .newsletter-container {
+    margin-left: 130px;
+  }
+  .newsletter-info {
+    width: 330px;
+    height: 350px;
+  }
+  .newsletter-info input,
+  .newsletter-info button {
+    width: 300px;
+  }
+  .newsletter-img img {
+    width: 400px;
+    height: 340px;
+  }
+
+  /* footer section================ */
+  footer {
+    width: 400px;
+    height: 300px;
+    margin-left: 130px;
+  }
+  .footer > p {
+    width: 287px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .footer {
+    padding-top: 10px;
+    /* margin-left: 130px; */
+  }
+  .footer hr {
+    width: 70%;
+    margin-left: 50px;
+  }
+  .footer-title h3,
+  .title-design {
+    font-size: 1.2rem;
+    font-weight: 800px;
+  }
+  .footer img {
+    width: 33px;
+    height: 33px;
   }
 }
