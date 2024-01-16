@@ -29,6 +29,7 @@
     align-items: center;
     /* margin-left: 65px; */
     margin: 0px;
+    margin-bottom: 15px;
   }
   .links {
     display: none;
