@@ -8,7 +8,8 @@
   .row-2,
   .row-3,
   .chose-container,
-  .newsletter-container {
+  .newsletter-container,
+  .testimonial-container {
     flex-direction: column;
   }
   .row-1,
@@ -20,6 +21,29 @@
     align-content: center;
     margin-left: 20px;
   }
+  /* nav bar section start================== */
+
+  .nav-container {
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+  }
+  .links {
+    display: none;
+  }
+  .hm-btn {
+    display: block;
+  }
+
+  .logo-design {
+    font-size: 1.2rem;
+  }
+  .nav-logo h3 {
+    font-size: 1.2rem;
+  }
+
+  /* banner section-================== */
 
   .input-container {
     width: 287px;
@@ -156,7 +180,7 @@
 
   /* footer section================ */
   footer {
-    width: 400px;
+    width: 360px;
     height: 300px;
     margin-left: 130px;
   }
@@ -181,5 +205,15 @@
   .footer img {
     width: 33px;
     height: 33px;
+  }
+  /* testimonialsection====================== */
+  .testimonial > h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  .testimonial-container {
+    margin-left: 150px;
+    margin-bottom: 30px;
   }
 }
