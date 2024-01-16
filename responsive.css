@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   body {
-    max-width: 599px;
+    max-width: 410px;
   }
   .input-container,
   .popular-container,
@@ -27,7 +27,8 @@
     gap: 80px;
     justify-content: center;
     align-items: center;
-    margin-left: 65px;
+    /* margin-left: 65px; */
+    margin: 0px;
   }
   .links {
     display: none;
@@ -64,6 +65,7 @@
     height: 483px;
     /* margin: 20px;  */
     align-items: center;
+    margin: 0px;
   }
   .banner-title {
     width: 250px;
@@ -93,6 +95,10 @@
     width: 380px;
     height: 440px;
   }
+  .popular-container {
+    margin: 0px;
+    margin-left: 5px;
+  }
 
   /* destination section start =================== */
   .destination-container img {
@@ -113,18 +119,19 @@
     width: 400px;
   }
   .destination {
-    margin-left: 140px;
+    /* margin-left: 140px; */
   }
   /* chose section=========--------- */
   .chose-title {
     font-size: 1.2rem;
+    width: 330px;
   }
 
   .chose-description {
     text-align: center;
     width: 310px;
     /* margin-left: 160px; */
-    margin: 20px 0px 20px 160px;
+    margin: 20px 0px 20px 0px;
   }
 
   .chose-price {
@@ -140,7 +147,7 @@
   .chose-service,
   .chose-price {
     width: 310px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
   }
 
   /* newsletter section=================- */
@@ -162,8 +169,10 @@
     font-size: 1.1rem;
     font-weight: 800px;
   }
+  /* newslater section ==================== */
+
   .newsletter-container {
-    margin-left: 130px;
+    /* margin-left: 130px; */
   }
   .newsletter-info {
     width: 330px;
@@ -180,14 +189,15 @@
 
   /* footer section================ */
   footer {
-    width: 360px;
+    width: 340px;
     height: 300px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
   }
   .footer > p {
     width: 287px;
-    margin-left: 50px;
+    margin: 0px;
     margin-top: 20px;
+    margin-left: 20px;
   }
   .footer {
     padding-top: 10px;
@@ -211,9 +221,10 @@
     font-size: 1.3rem;
     font-weight: 800;
     text-align: center;
+    width: 350px;
   }
   .testimonial-container {
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-bottom: 30px;
   }
 }
