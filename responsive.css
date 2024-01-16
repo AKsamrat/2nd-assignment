@@ -1,0 +1,117 @@
+@media screen and (max-width: 600px) {
+  body {
+    max-width: 599px;
+  }
+  .input-container,
+  .popular-container,
+  .row-1,
+  .row-2,
+  .row-3,
+  .chose-container {
+    flex-direction: column;
+  }
+  .row-1,
+  .row-2,
+  .row-3 {
+    row-gap: 24px;
+    width: 335px;
+    height: auto;
+    align-content: center;
+    margin-left: 20px;
+  }
+
+  .input-container {
+    width: 287px;
+    /* padding: 16px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .input-container input {
+    width: 255px;
+    height: 52px;
+  }
+  .banner-section {
+    object-fit: cover;
+    width: 350px;
+    height: 483px;
+    /* margin: 20px;  */
+    align-items: center;
+  }
+  .banner-title {
+    width: 250px;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+  .banner-description {
+    margin-left: 16px;
+    width: 304px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+  }
+
+  /* popular section start==================== */
+
+  .popular-title {
+    font-size: 1.5rem;
+    width: 380px;
+  }
+  .populer-info p,
+  .populer-info li {
+    width: 380px;
+  }
+  .popular-img img {
+    width: 380px;
+    height: 440px;
+  }
+
+  /* destination section start =================== */
+  .destination-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .row-3 {
+    margin-top: 20px;
+  }
+  .destination-section p {
+    width: 309px;
+    margin-left: 50px;
+  }
+  .destination-title {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    width: 400px;
+  }
+  .destination {
+    margin-left: 140px;
+  }
+  /* chose section=========--------- */
+  .chose-title {
+    font-size: 1.2rem;
+  }
+
+  .chose-description {
+    text-align: center;
+    width: 310px;
+    /* margin-left: 160px; */
+    margin: 20px 0px 20px 160px;
+  }
+
+  .chose-price {
+    position: static;
+  }
+
+  .chose-hotel p,
+  .chose-service p,
+  .chose-price p {
+    width: 310px;
+  }
+  .chose-hotel,
+  .chose-service,
+  .chose-price {
+    width: 310px;
+    margin-left: 150px;
+  }
+}

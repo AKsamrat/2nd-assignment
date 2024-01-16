@@ -1,0 +1,302 @@
+body {
+  width: 1440px;
+  height: 6000px;
+  background: #fff;
+  font-family: 'Mulish', sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* nav section style  ====================== */
+
+/* banner section style ====================> */
+.banner-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url('Images/Group\ 13\ \(1\)\ \(1\).png');
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 50px auto 70px 140px;
+}
+.banner-title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 4rem;
+  font-weight: 800;
+  padding-top: 100px;
+}
+.banner-description {
+  color: #fff;
+  /* text-align: center; */
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 676px;
+  margin-left: 250px;
+  padding-top: 24px;
+  padding-bottom: 45px;
+}
+.input-container {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.input-container input {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+}
+.banner-btn {
+  /* width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  color: #fff;
+  background: #ff5400;
+  border: none;
+
+   margin-bottom: 20px; 
+  text-align: center; */
+}
+.banner-btn button {
+  /* color: #fff; */
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  color: #fff;
+  background: #ff5400;
+  border: none;
+
+  /* margin-bottom: 20px; */
+  text-align: center;
+}
+.btn-img {
+  width: 24px;
+  height: 24px;
+  align-content: center;
+  padding-right: 10px;
+}
+
+/* popular section style start=================== */
+
+.popular-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 53px;
+  margin: 20px 135px 20px 135px;
+}
+
+.popular-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.populer-info p {
+  color: #5a5a5d;
+  width: 530px;
+  font-size: 1rem;
+}
+.populer-info li {
+  color: #5a5a5d;
+  width: 530px;
+  font-size: 1rem;
+  margin: 17px 0px;
+}
+.populer-info button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600px;
+  border: none;
+  margin-top: 30px;
+}
+
+.popular-img img {
+  width: 500px;
+  height: 510px;
+}
+
+/* destination section style =================== */
+
+/* .destination-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.destination-container img {
+  height: 300px;
+} */
+.row-1 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: 324px;
+}
+/* .row-1 img {
+  position: relative;
+} */
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: 314px;
+  /* position: relative; */
+  margin: 0px 0px;
+}
+.row-3 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: 300px;
+  /* position: relative; */
+}
+
+.destination-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.destination-section p {
+  color: rgba(19, 19, 24, 0.7);
+  width: 543px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 45px;
+  margin-left: 450px;
+}
+.destination-section {
+  margin-top: 150px;
+}
+.destination-container h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.position-maldivs {
+  position: relative;
+  bottom: 180px;
+  left: 11px;
+  /* transform: translate(-50%, -50%); */
+}
+.position-indonesia {
+  position: relative;
+  bottom: 175px;
+  left: 11px;
+}
+.position-srilanka {
+  position: relative;
+  bottom: 160px;
+  left: 11px;
+}
+.position-America {
+  position: relative;
+  bottom: 160px;
+  left: 15px;
+}
+.position-Kashmir {
+  position: relative;
+  bottom: 160px;
+  left: 11px;
+}
+.position-bangladesh {
+  position: relative;
+  bottom: 175px;
+  left: 11px;
+}
+.position-bandarban {
+  position: relative;
+  bottom: 175px;
+  left: 11px;
+}
+
+/* <!-- chose items section start ========================> --> */
+
+.chose-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 100px;
+}
+.chose-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  width: 643px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 400px;
+}
+.chose-hotel h4,
+.chose-service h4,
+.chose-price h4 {
+  color: #131318;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.chose-hotel p,
+.chose-service p,
+.chose-price p {
+  color: #5a5a5d;
+  width: 486px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.chose-hotel {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  width: 550px;
+  height: 260px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.chose-service {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding-left: 24px;
+  padding-top: 24px;
+  width: 550px;
+  height: 260px;
+}
+.chose-price {
+  padding-left: 24px;
+  padding-top: 24px;
+  width: 550px;
+  height: 260px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  position: relative;
+  left: 30%;
+  margin-top: 25px;
+}
+
+.chose-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
