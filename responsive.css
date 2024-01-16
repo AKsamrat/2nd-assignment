@@ -66,6 +66,7 @@
     /* margin: 20px;  */
     align-items: center;
     margin: 0px;
+    object-fit: cover;
   }
   .banner-title {
     width: 250px;
@@ -155,7 +156,7 @@
     width: 214.023px;
     height: 79.268px;
     position: relative;
-    left: 180px;
+    left: 170px;
     bottom: 116px;
   }
   .saving p {
@@ -169,21 +170,20 @@
     font-size: 1.1rem;
     font-weight: 800px;
   }
-  /* newslater section ==================== */
 
   .newsletter-container {
     /* margin-left: 130px; */
   }
   .newsletter-info {
-    width: 330px;
-    height: 350px;
+    width: 310px;
+    height: 340px;
   }
   .newsletter-info input,
   .newsletter-info button {
     width: 300px;
   }
   .newsletter-img img {
-    width: 400px;
+    width: 390px;
     height: 340px;
   }
 
