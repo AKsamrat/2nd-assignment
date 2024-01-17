@@ -165,6 +165,7 @@ select {
   width: 530px;
   font-size: 1rem;
   margin: 17px 0px;
+  margin-left: 5px;
 }
 .populer-info button {
   width: 174px;
